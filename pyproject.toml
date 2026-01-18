@@ -30,10 +30,10 @@ dependencies = [
 rlm = ["rlm>=0.1.0"]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/rlm-memory"
-Documentation = "https://github.com/yourusername/rlm-memory#readme"
-Repository = "https://github.com/yourusername/rlm-memory"
-Issues = "https://github.com/yourusername/rlm-memory/issues"
+Homepage = "https://github.com/CynicalWilson/rlm-memory"
+Documentation = "https://github.com/CynicalWilson/rlm-memory#readme"
+Repository = "https://github.com/CynicalWilson/rlm-memory"
+Issues = "https://github.com/CynicalWilson/rlm-memory/issues"
 
 # NOTE: For local development with the RLM package, uncomment the following:
 # [tool.uv.sources]
