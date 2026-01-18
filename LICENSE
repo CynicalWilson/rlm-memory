@@ -1,21 +1,83 @@
-MIT License
+RLM Memory Plugin License
 
-Copyright (c) 2026 RLM Project
+Copyright (c) 2026 CynicalWilson
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+TERMS AND CONDITIONS
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. DEFINITIONS
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+   "Software" refers to the RLM Memory plugin, including all source code,
+   documentation, and associated files in this repository.
+
+   "Personal Use" means use by an individual for non-commercial purposes,
+   including personal projects, learning, research, and hobby development.
+
+   "Commercial Use" means any use of the Software for commercial advantage
+   or monetary compensation, including but not limited to:
+   - Use within a for-profit company or organization
+   - Integration into commercial products or services
+   - Use in consulting or contract work
+   - Use in any revenue-generating activity
+
+2. PERSONAL USE LICENSE
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this Software, to use, copy, modify, and distribute the Software
+   for Personal Use, subject to the following conditions:
+
+   a) Attribution Required: Any use, distribution, or derivative work must
+      include clear and prominent attribution to the original author:
+
+      "RLM Memory Plugin by CynicalWilson"
+      "https://github.com/CynicalWilson/rlm-memory"
+
+   b) This license notice must be included in all copies or substantial
+      portions of the Software.
+
+   c) Any derivative works must be distributed under the same license terms.
+
+3. COMMERCIAL USE LICENSE
+
+   Commercial Use of this Software requires a separate paid license agreement.
+
+   To obtain a commercial license, please contact the author:
+   - GitHub: https://github.com/CynicalWilson
+   - Open an issue: https://github.com/CynicalWilson/rlm-memory/issues
+
+   Commercial licenses include:
+   - Rights to use the Software in commercial products and services
+   - Rights to use within for-profit organizations
+   - Optional support and maintenance agreements
+   - Customization options available upon request
+
+4. RESTRICTIONS
+
+   Without a commercial license, you may NOT:
+   - Use the Software for any Commercial Use as defined above
+   - Remove or obscure any attribution notices
+   - Sublicense the Software for commercial purposes
+   - Claim the Software as your own original work
+
+5. DISCLAIMER OF WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+   OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+   USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+7. TERMINATION
+
+   This license is automatically terminated if you fail to comply with any of
+   its terms. Upon termination, you must destroy all copies of the Software
+   in your possession.
+
+---
+
+For commercial licensing inquiries, please contact:
+GitHub: https://github.com/CynicalWilson

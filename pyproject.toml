@@ -3,7 +3,7 @@ name = "rlm-memory"
 version = "1.0.0"
 description = "RLM-powered conversation memory for Claude Code"
 readme = "README.md"
-license = {text = "MIT"}
+license = {text = "Custom - Free for personal use with attribution, commercial use requires paid license"}
 requires-python = ">=3.11"
 authors = [
     {name = "RLM Project"}

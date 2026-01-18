@@ -272,4 +272,8 @@ The IntelligentRetriever uses multiple strategies:
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+**Personal Use**: Free with attribution required. Include credit to "RLM Memory Plugin by CynicalWilson" and link to this repository.
+
+**Commercial Use**: Requires a paid license. Contact the author via [GitHub](https://github.com/CynicalWilson) or [open an issue](https://github.com/CynicalWilson/rlm-memory/issues) for licensing inquiries.
+
+See [LICENSE](LICENSE) for full terms.
