@@ -2,6 +2,13 @@
 
 RLM Memory is a Claude Code plugin that provides lossless conversation memory using Recursive Language Models (RLM). Instead of losing information during context compaction, RLM Memory stores full conversation history externally and retrieves only what's relevant for each query.
 
+## Acknowledgments
+
+This plugin is inspired by and built upon the **Recursive Language Models (RLM)** paradigm:
+
+- **RLM Repository**: [github.com/alexzhang13/rlm](https://github.com/alexzhang13/rlm)
+- **Research Paper**: [Recursive Language Models](https://arxiv.org/abs/2512.24601) - *"RLMs enable LLMs to programmatically examine, decompose, and recursively call themselves over their input, offloading context as a variable in a REPL environment."*
+
 ## Features
 
 - **Lossless Context Storage**: Preserves full conversation history, tool results, and file operations
