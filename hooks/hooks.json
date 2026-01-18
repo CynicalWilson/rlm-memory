@@ -1,0 +1,52 @@
+{
+  "description": "RLM Memory hooks for conversation context management",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --directory \"${CLAUDE_PLUGIN_ROOT}\" python -m rlm_memory.hooks.session_start",
+            "timeout": 10000
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --directory \"${CLAUDE_PLUGIN_ROOT}\" python -m rlm_memory.hooks.pre_compact",
+            "timeout": 30000
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run --directory \"${CLAUDE_PLUGIN_ROOT}\" python -m rlm_memory.hooks.post_tool",
+            "timeout": 5000
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "If this user query seems to reference past context, previous decisions, or earlier work in this session, consider using the rlm_recall tool to retrieve relevant information before responding."
+          }
+        ]
+      }
+    ]
+  }
+}

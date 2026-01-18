@@ -1,0 +1,10 @@
+{
+  "rlm-memory": {
+    "command": "uv",
+    "args": ["run", "--directory", "${CLAUDE_PLUGIN_ROOT}", "python", "-m", "rlm_memory.server"],
+    "env": {
+      "RLM_STORAGE_DIR": "${CLAUDE_PROJECT_DIR}/.rlm-memory",
+      "RLM_LOG_LEVEL": "info"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+[project]
+name = "rlm-memory"
+version = "1.0.0"
+description = "RLM-powered conversation memory for Claude Code"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [
+    {name = "RLM Project"}
+]
+keywords = ["claude", "mcp", "memory", "context", "conversation", "rlm"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "mcp>=1.0.0",
+    "pydantic>=2.0",
+    "aiosqlite>=0.19.0",
+]
+
+[project.optional-dependencies]
+# Install with: uv pip install -e ".[rlm]" or pip install ".[rlm]"
+# Enables intelligent summarization and recursive retrieval
+rlm = ["rlm>=0.1.0"]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/rlm-memory"
+Documentation = "https://github.com/yourusername/rlm-memory#readme"
+Repository = "https://github.com/yourusername/rlm-memory"
+Issues = "https://github.com/yourusername/rlm-memory/issues"
+
+# NOTE: For local development with the RLM package, uncomment the following:
+# [tool.uv.sources]
+# rlm = { path = ".." }
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["rlm_memory", "rlm_memory.*"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "ruff>=0.14.10",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E501",  # line too long (handled by formatter)
+]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

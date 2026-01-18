@@ -1,0 +1,9 @@
+{
+  "name": "rlm-memory",
+  "version": "1.0.0",
+  "description": "RLM-powered conversation memory for Claude Code - lossless context decomposition with recursive retrieval",
+  "author": {
+    "name": "RLM Project"
+  },
+  "keywords": ["memory", "context", "rlm", "conversation", "recall"]
+}
