@@ -27,7 +27,8 @@ dependencies = [
 [project.optional-dependencies]
 # Install with: uv pip install -e ".[rlm]" or pip install ".[rlm]"
 # Enables intelligent summarization and recursive retrieval
-rlm = ["rlm>=0.1.0"]
+# Note: rlm is not published to PyPI - use git URL for external installs
+rlm = ["rlm @ git+https://github.com/alexzhang13/rlm.git"]
 
 [project.urls]
 Homepage = "https://github.com/CynicalWilson/rlm-memory"
@@ -35,7 +36,7 @@ Documentation = "https://github.com/CynicalWilson/rlm-memory#readme"
 Repository = "https://github.com/CynicalWilson/rlm-memory"
 Issues = "https://github.com/CynicalWilson/rlm-memory/issues"
 
-# NOTE: For local development with the RLM package, uncomment the following:
+# For local development with the RLM package, override the git source:
 # [tool.uv.sources]
 # rlm = { path = ".." }
 

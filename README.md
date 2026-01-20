@@ -39,10 +39,17 @@ cp -r rlm-memory ~/.claude/plugins/
 
 ```bash
 cd ~/.claude/plugins/rlm-memory
+
+# Base install (keyword matching, no LLM-powered retrieval)
 uv sync
+
+# OR: Full install with RLM-powered intelligent retrieval (requires OPENAI_API_KEY)
+uv sync --extra rlm
 ```
 
 3. The plugin will be automatically discovered by Claude Code on next startup.
+
+> **Note**: The base install provides keyword-based memory retrieval. The `[rlm]` extra adds intelligent LLM-powered summarization and retrieval using the RLM paradigm.
 
 ### Manual Configuration
 
